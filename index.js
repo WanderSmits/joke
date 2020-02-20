@@ -6,14 +6,13 @@ const app = express();
 const page = `<hmtl>
   <head>
     <title>Wander</title>
-    <style>
-    *{
-      background-color: 
-    }
-    </style>
   </head>
   <body>
-    
+  <style>
+  *{
+    background-color: 
+  }
+  </style>
     <h1 class="joke1">Why do comedians love !false?</h1>
     <p class="punchline">It's funny because it's true.</p>
   </body> 
