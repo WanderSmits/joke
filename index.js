@@ -7,14 +7,32 @@ const page = `<hmtl>
   <head>
     <title>Wander</title>
     <style>
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
+body {background-color: #deb887;}
+h1   {color: white;
+      left: 0;
+      line-height: 200px;
+      margin-top: -100px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 100%;
+}
+p    {
+      font-size: 2em;
+  color: white;
+      left: 0;
+      line-height: 200px;
+      margin-top: -100px;
+      position: absolute;
+      text-align: center;
+      top: 70%;
+      width: 100%;
+}
 </style>
   </head>
   <body>
-    <h1 class="joke1">Why do comedians love !false?</h1>
-    <p class="punchline">It's funny because it's true.</p>
+    <h1 class="joke1">Why did the half blind man fall into a well?</h1>
+    <p class="punchline">He couldn’t see that well.</p>
   </body> 
 </html>`;
 
